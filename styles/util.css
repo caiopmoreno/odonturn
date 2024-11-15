@@ -1,0 +1,11 @@
+/* Button's arrow animation */
+.button-ease .arrow-ease{
+  opacity: 0;
+  margin-right: -24px;
+  transition:  0.4s ease, transform 0.4s ease;
+}
+.button-ease:hover .arrow-ease{
+  opacity: 1;
+  margin-right: 0;
+  transition:  0.4s ease, transform 0.4s ease;
+}

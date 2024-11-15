@@ -1,0 +1,51 @@
+header{
+  background-color: #F9FAFB;
+  max-height: 118px;
+}
+
+header .container{
+  width: 1206px;
+  display: flex;
+  margin-inline: auto;
+  justify-content: space-between;
+  padding-block: 40px 20px;
+  align-items: center;
+}
+
+.logo{
+  width: 221px;
+  height: 100%;
+}
+
+#nav{
+  display: flex;
+  gap: 12px;
+  line-height: 23px;
+  color: #2D3648;
+  font-size: 16px;
+  font-weight: 450;
+}
+
+.header-link:hover{
+  color: #2D364890;
+}
+
+#header-btn{
+  background-color: #303036;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 32px;
+  max-height: 44px;
+  align-items: center;
+  border-radius: 160px;
+  border: none;
+  display: flex;
+  gap: 8px;
+}
+
+#header-btn-box{
+  width: 230px;
+  display: flex;
+  justify-content: end;
+}

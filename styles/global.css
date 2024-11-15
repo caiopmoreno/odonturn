@@ -20,18 +20,18 @@ a {
   color: inherit;
   }
 
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
+ul, ol {
+    list-style: none;
+  }
+
+  a, button, p, h1, h2, h3, h4, ul{
+    font-family: "Outfit", sans-serif;
   }
 
 :root{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  
-
-
 }
 
 /*
@@ -42,4 +42,4 @@ bg primário
 bg secundário
 bg card primario
 bg card secundário (nem precisa né)
-arred 12px
+*/
