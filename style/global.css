@@ -1,0 +1,36 @@
+*, *::after, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a, ul, ol, li{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  font: inherit;
+}
+
+a:hover{
+  color: inherit;
+}
+
+:root{
+  --bg-primary: #FEFEFE;
+  --bg-secondary: #F9FAFB;
+  --brand-primary: #2192C2;
+  --brand-secondary: #60B8DD;
+  --accent: #F44C22;
+  --accent-hover: #FB623C;
+  --black: #303036;
+  --white: #FFFFFF;
+  --bg-box: #F7FBFD;
+  --bg-footer: #F9FAFB;
+  --bg-footer-secondary: #F0F1F2;
+
+  font-family: "Outfit", "Roboto",sans-serif;
+}
